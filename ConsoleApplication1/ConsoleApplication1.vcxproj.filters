@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Functions.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{37af6228-c07a-42a0-8343-b00d030552c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entity.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
